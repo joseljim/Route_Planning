@@ -1,4 +1,4 @@
-# Route_planning
+# Route planning for Mars Exploration Rover
 
 For this project, height maps of Mars from the Lunar & Planetary Laboratory of the University of Arizona were used to develop a classification neural network. Route planning consisted of classifying the maps by navigable or non-navigable areas. From this, a search algorithm (A*) was used to generate routes from point A to point B with the lowest possible cost.
 
