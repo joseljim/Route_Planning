@@ -2,6 +2,12 @@
 
 For this project, height maps of Mars from the Lunar & Planetary Laboratory of the University of Arizona were used to develop a classification neural network. Route planning consisted of classifying the maps by navigable or non-navigable areas. From this, a search algorithm (A*) was used to generate routes from point A to point B with the lowest possible cost.
 
+## Team
+
+* José Luis Jiménez Arévalo [joseljim](https://github.com/joseljim)
+* Luis ALfredo Aceves Astengo [A01229441](https://github.com/A01229441)
+* Eduardo García Olmos [EDUARDOGO](https://github.com/EGO72)
+
 ## Terrain Classification
 
 At first, the program must divide the map into squares of 20x20 pixels, and classify these zones using the best model for levels of navigability trained in the previous stage of the project. The map should be colored according to the levels obtained with the classifier.
